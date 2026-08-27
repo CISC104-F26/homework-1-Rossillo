@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://be8j6cs7hild6"]
+
+[ext_resource type="Script" uid="uid://bngpwrlsqmyc2" path="res://HelloWorld.gd" id="1_7ls63"]
+
+[node name="Instructions" type="Control" unique_id=970945535]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7ls63")
+
+[node name="Text Instructions" type="RichTextLabel" parent="." unique_id=1398690850]
+layout_mode = 0
+offset_top = -11.0
+offset_right = 1163.0
+offset_bottom = 656.0
+bbcode_enabled = true
+text = "[b]Quick Instructions[/b]
+Part A:
+1. Open the HelloWorld.gd script file
+2. Find the answer box for Part A
+3. Write [b]print(\"Hello, World!\")[/b] on the empty line
+4. Check that your indentation is correct
+5. Press play and see \"Hello, World\" appear in the Output console.
+
+Part B:
+1. Open the script again and find the Part B section
+2. In the empty space, write a line of code that starts with [b]print[/b]
+3. Fill the parentheses with a message of your choice.
+4. Press play and see your custom message appear in the Output console
+
+Part C:
+1. Open the script one more time
+2. Write a line of code that starts with [b]push_warning[/b]
+3. Write a custom warning message of your choice
+4. Write a line of code that starts with [b]push_error[/b]
+5. Write a custom error message of your choice
+6. Press play and see your messages in the Debugger panel.
+
+Once you have finished all 3 parts:
+1. Save all your work in Godot.
+2. [b]Commit[/b] your work in GitHub Desktop
+3. [b]Push[/b] your work to the cloud using GitHub Desktop
+4. In Godot, right click on the HelloWorld.gd script and select the option \"Reveal in Finder\" or \"Show in File Explorer\"
+5. [b]Upload[/b] the HelloWorld.gd file to the assignment on Canvas."
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
