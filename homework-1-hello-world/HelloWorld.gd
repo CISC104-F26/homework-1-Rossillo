@@ -6,7 +6,7 @@ func _ready():
 	print("Welcome to Homework 1!")
 	
 	"""
-	Part A:
+	Part A: 
 	- Write your line of code on the blank lines
 		between the dashed lines below.
         
@@ -15,18 +15,18 @@ func _ready():
 		# symbol at the start of the dashed lines
     """ 
 	#---------------------
-	
+	print("Hello, World!")
 	#----------------------
 
 	"""
 	Part B:
 		-As before, write your code on the blank line
 		in between the dashed lines
-		
+
 		- Remember: indentation matters!
 	"""
 	#---------------------
-	
+	print("I HAVE 50 MILLION POWER IN RISE OF KINGDOMS!.")
 	#----------------------
 	
 	"""
@@ -35,6 +35,7 @@ func _ready():
 		provided blank space
 	"""
 	#---------------------
-	
+	push_warning("SOMETHING IS WRONG I CAN FEEL IT!")
+	push_error("You done goofed something up.")
 	#----------------------
 	
